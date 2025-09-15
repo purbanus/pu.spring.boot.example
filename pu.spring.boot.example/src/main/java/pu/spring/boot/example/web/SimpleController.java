@@ -13,8 +13,7 @@ public class SimpleController {
 
     @GetMapping("/")
     public String homePage(Model model) {
-        model.addAttribute("appName", appName);
+        model.addAttribute("AppName", appName);
         return "home";
     }
-    //ResourceHttpRequestHandler
 }
