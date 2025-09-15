@@ -7,9 +7,6 @@ import java.util.Random;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import pu.spring.boot.example.bo.RandomAlphabetic;
-import pu.spring.boot.example.bo.RandomNumeric;
-
 public class TestRandomNumeric
 {
 RandomNumeric randomNumeric;
